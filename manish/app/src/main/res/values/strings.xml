@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CampusCalm</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">we will send you an One Time Password on this mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="_91">+91-</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP?</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="verify">verify</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="logintxt">Login</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="register">register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">email</string>
+    <string name="registertxt">Register</string>
+    <string name="already_registered_login">Already registered? Log in now</string>
+    <string name="email1">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="name">Name:</string>
+    <string name="email11">Email:</string>
+    <string name="logout">Logout</string>
+    <string name="enter_bill_number">Enter Bill Number</string>
+    <string name="view_details">View Details</string>
+    <string name="profile">Profile</string>
+    <string name="water_bill">Water Bill</string>
+    <string name="chat">Chat</string>
+    <string name="profile1">Profile</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="branch">Branch</string>
+    <string name="hello">Hello</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961538034034",
+    "project_id": "manish-fa990",
+    "storage_bucket": "manish-fa990.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961538034034:android:a2a0499f907b8ee85bb5eb",
+        "android_client_info": {
+          "package_name": "com.example.manish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5F8yuKRoJxXY-0wfYPTijV810WRFOWhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/entriesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journal Entries: "
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/entryContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entry Content"/>
+
+    </LinearLayout>
+</ScrollView>

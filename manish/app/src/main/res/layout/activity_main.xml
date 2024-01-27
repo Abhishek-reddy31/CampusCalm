@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/img">
+    <!-- Your existing layout content goes here -->
+
+    <!-- Add a Profile Button -->
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F39393"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:paddingStart="13dp"
+        android:paddingEnd="6dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Bell"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/profile_name"
+        android:drawableStart="@drawable/baseline_notifications_none_24"
+        android:paddingStart="13dp"
+        android:paddingEnd="6dp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@id/Bell"
+        android:drawableStart="@drawable/baseline_add_24"
+        android:paddingStart="13dp"
+        android:paddingEnd="6dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/profileButton"
+        android:paddingStart="10dp"
+        android:text="Hello\n"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Bottom Navigation Bar -->
+    <LinearLayout
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/homepage"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:drawableStart="@drawable/baseline_home_24"
+                android:paddingStart="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Explore"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:drawableStart="@drawable/baseline_sports_soccer_24"
+                android:paddingStart="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Journal"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:drawableStart="@drawable/baseline_emoji_people_24"
+                android:paddingStart="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Journal"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Community"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:drawableStart="@drawable/baseline_people_24"
+                android:paddingStart="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Community"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Stats"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:drawableStart="@drawable/baseline_query_stats_24"
+                android:paddingStart="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stats"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Daily Mood Check-In TextView with Bold style -->
+    <TextView
+        android:id="@+id/dailymoodchecking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileButton"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Daily Mood Checking"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Emotion Buttons -->
+    <LinearLayout
+        android:id="@+id/emotionButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dailymoodchecking"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/amazingButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Amazing \n🌟"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/goodButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Good \n😊"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/okayButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Okay \n😐"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/badButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Bad \n😞"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/terribleButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="Terrible \n😢"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Daily Journal TextView -->
+
+    <!-- CardView with TextView and EditText -->
+    <TextView
+        android:id="@+id/dailyJournal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emotionButtons"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="20dp"
+        android:text="Daily Journal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dailyJournal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:radius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What's on your mind?"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <EditText
+                android:id="@+id/journaldata"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="18dp"
+                android:paddingLeft="20dp"
+                android:hint="Start typing here"
+                android:textColorHint="@android:color/darker_gray" />
+            <Button
+                android:id="@+id/saveJournal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="120dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
